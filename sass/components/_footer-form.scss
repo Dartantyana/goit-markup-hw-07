@@ -2,6 +2,16 @@
   color: var(--accent-color);
 }
 
+.mail-link-footer:hover,
+.mail-link-footer:focus {
+  color: var(--accent-color);
+}
+
+.link-number-phone-footer:hover,
+.link-number-phone-footer:focus {
+  color: var(--accent-color);
+}
+
 .contact-form-footer {
   display: flex;
   justify-content: center;
@@ -9,7 +19,7 @@
 
 .form-title {
   display: inline-block;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -41,8 +51,8 @@
   font-family: 'Roboto';
   font-style: normal;
   letter-spacing: 0.06em;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
 .image-button {
@@ -65,7 +75,6 @@
   margin-top: 20px;
   color: #ffffff;
 }
-
 
 .footer-form {
   margin-left: auto;
