@@ -18,40 +18,35 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Header section-->
     <header class="header-page">
-      <div class="container header-container">
-        <nav class="navigation">
-          <a class="logo link" href=""
-            >Web<span class="header-logo"> Studio</span></a
-          >
+      <div class="container header__container">
+        <nav class="header__navigation">
+          <a class="logo link" href="">Web<span class="header__logo"> Studio</span></a>
           <ul class="navigation-list list">
-            <li class="nav-list-item">
-              <a class="nav-list link current" href="./index.html">Студия</a>
+            <li class="navigation-list__item">
+              <a class="navigation-list__link link current" href="./index.html">Студия</a>
             </li>
-            <li class="nav-list-item">
-              <a class="nav-list link" href="./portfolio.html">Портфолио</a>
+            <li class="navigation-list__item">
+              <a class="navigation-list__link link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="nav-list-item">
-              <a class="nav-list link" href="">Контакты </a>
+            <li class="navigation-list__item">
+              <a class="navigation-list__link link" href="">Контакты </a>
             </li>
           </ul>
         </nav>
-        <a
-          class="header-contact header-list link"
-          href="mailto:info@devstudio.com"
-        >
-          <svg class="contact-icon" width="16" height="12">
+        <a class="header-contact header__list link" href="mailto:info@devstudio.com">
+          <svg class="header-contact__icon" width="16" height="12">
             <use href="./img/sprite.svg#email"></use>
           </svg>
           info@devstudio.com</a
         ><br />
-        <a class="header-list link" href="tel:+380961111111">
-          <svg class="contact-icon" width="10" height="16">
+        <a class="header__list link" href="tel:+380961111111">
+          <svg class="header-contact__icon" width="10" height="16">
             <use href="./img/sprite.svg#phone"></use>
           </svg>
           +38 096 111 11 11
@@ -66,9 +61,7 @@
             ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
             ДЛЯ ВАШЕГО БИЗНЕСА
           </h1>
-          <button class="modal-btn" type="button" data-modal-open>
-            Заказать услугу
-          </button>
+          <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!--excellence-->
@@ -79,67 +72,45 @@
             <li class="excellent-list-item elements-section">
               <div class="excellence-image-list">
                 <svg class="excellence-image">
-                  <use
-                    href="./img/sprite.svg#antenna"
-                    width="70"
-                    height="70"
-                  ></use>
+                  <use href="./img/sprite.svg#antenna" width="70" height="70"></use>
                 </svg>
               </div>
               <h3 class="excellence-title section-title">Внимание к деталям</h3>
               <p class="text-pharagrapher">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
             <li class="excellent-list-item elements-section">
               <div class="excellence-image-list">
                 <svg class="excellence-image">
-                  <use
-                    href="./img/sprite.svg#clock"
-                    width="70"
-                    height="70"
-                  ></use>
+                  <use href="./img/sprite.svg#clock" width="70" height="70"></use>
                 </svg>
               </div>
               <h3 class="excellence-title section-title">Пунктуальность</h3>
               <p class="text-pharagrapher">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
             <li class="excellent-list-item elements-section">
               <div class="excellence-image-list">
                 <svg class="excellence-image">
-                  <use
-                    href="./img/sprite.svg#diagram"
-                    width="70"
-                    height="70"
-                  ></use>
+                  <use href="./img/sprite.svg#diagram" width="70" height="70"></use>
                 </svg>
               </div>
               <h3 class="excellence-title section-title">Планирование</h3>
               <p class="text-pharagrapher">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
+                Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li class="excellent-list-item elements-section">
               <div class="excellence-image-list">
                 <svg class="excellence-image">
-                  <use
-                    href="./img/sprite.svg#astronaut"
-                    width="70"
-                    height="70"
-                  ></use>
+                  <use href="./img/sprite.svg#astronaut" width="70" height="70"></use>
                 </svg>
               </div>
-              <h3 class="excellence-title section-title">
-                Современные технологии
-              </h3>
+              <h3 class="excellence-title section-title">Современные технологии</h3>
               <p class="text-pharagrapher">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
           </ul>
@@ -152,34 +123,19 @@
           <ul class="gallery-list list">
             <li class="gallery-list-item">
               <div class="image-onlay">
-                <img
-                  src="img/laptop.jpg"
-                  alt="Ноутбук"
-                  width="370"
-                  height="294"
-                />
+                <img src="img/laptop.jpg" alt="Ноутбук" width="370" height="294" />
                 <p class="onlay">Десктопные приложения</p>
               </div>
             </li>
             <li class="gallery-list-item">
               <div class="image-onlay">
-                <img
-                  src="img/telephone.jpg"
-                  alt="Телефон"
-                  width="370"
-                  height="294"
-                />
+                <img src="img/telephone.jpg" alt="Телефон" width="370" height="294" />
                 <p class="onlay">Мобильные приложения</p>
               </div>
             </li>
             <li class="gallery-list-item">
               <div class="image-onlay">
-                <img
-                  src="img/tablet.jpg"
-                  alt="Планшет"
-                  width="370"
-                  height="294"
-                />
+                <img src="img/tablet.jpg" alt="Планшет" width="370" height="294" />
                 <p class="onlay">Дизайнерские решения</p>
               </div>
             </li>
@@ -192,12 +148,7 @@
           <h2 class="team-section-title section-title title">Наша команда</h2>
           <ul class="team-section-list list list-section">
             <li class="elements-team-section">
-              <img
-                src="img/demianenko.jpg"
-                alt="Игорь Демьяненко"
-                width="270"
-                height="260"
-              />
+              <img src="img/demianenko.jpg" alt="Игорь Демьяненко" width="270" height="260" />
               <div class="section-item-style">
                 <h3 class="title-name section-title">Игорь Демьяненко</h3>
                 <p class="text-pharagrapher-picture">Product Designer</p>
@@ -234,12 +185,7 @@
               </div>
             </li>
             <li class="elements-team-section">
-              <img
-                src="img/repina.jpg"
-                alt="Ольга Репина"
-                width="270"
-                height="260"
-              />
+              <img src="img/repina.jpg" alt="Ольга Репина" width="270" height="260" />
               <div class="section-item-style">
                 <h3 class="title-name section-title">Ольга Репина</h3>
                 <p class="text-pharagrapher-picture">Frontend Developer</p>
@@ -276,12 +222,7 @@
               </div>
             </li>
             <li class="elements-team-section">
-              <img
-                src="img/tarasov.jpg"
-                alt="Николай Тарасов"
-                width="270"
-                height="260"
-              />
+              <img src="img/tarasov.jpg" alt="Николай Тарасов" width="270" height="260" />
               <div class="section-item-style">
                 <h3 class="title-name section-title">Николай Тарасов</h3>
                 <p class="text-pharagrapher-picture">Marketing</p>
@@ -318,12 +259,7 @@
               </div>
             </li>
             <li class="elements-team-section">
-              <img
-                src="img/ermakov.jpg"
-                alt="Михаил Ермаков"
-                width="270"
-                height="260"
-              />
+              <img src="img/ermakov.jpg" alt="Михаил Ермаков" width="270" height="260" />
               <div class="section-item-style">
                 <h3 class="title-name section-title">Михаил Ермаков</h3>
                 <p class="text-pharagrapher-picture">UI Designer</p>
@@ -369,66 +305,42 @@
             <li class="clients-group-items">
               <a class="clients-group-link link" href="">
                 <svg class="clients-group-icons">
-                  <use
-                    href="./img/sprite.svg#logoone"
-                    width="106px"
-                    height="60px"
-                  ></use>
+                  <use href="./img/sprite.svg#logoone" width="106px" height="60px"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-group-items">
               <a class="clients-group-link link" href="">
                 <svg class="clients-group-icons">
-                  <use
-                    href="./img/sprite.svg#logosix"
-                    width="106px"
-                    height="60px"
-                  ></use>
+                  <use href="./img/sprite.svg#logosix" width="106px" height="60px"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-group-items">
               <a class="clients-group-link link" href="">
                 <svg class="clients-group-icons">
-                  <use
-                    href="./img/sprite.svg#logotwo"
-                    width="106px"
-                    height="60px"
-                  ></use>
+                  <use href="./img/sprite.svg#logotwo" width="106px" height="60px"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-group-items">
               <a class="clients-group-link link" href="">
                 <svg class="clients-group-icons">
-                  <use
-                    href="./img/sprite.svg#logothree"
-                    width="106px"
-                    height="60px"
-                  ></use>
+                  <use href="./img/sprite.svg#logothree" width="106px" height="60px"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-group-items">
               <a class="clients-group-link link" href="">
                 <svg class="clients-group-icons">
-                  <use
-                    href="./img/sprite.svg#logofour"
-                    width="106px"
-                    height="60px"
-                  ></use>
+                  <use href="./img/sprite.svg#logofour" width="106px" height="60px"></use>
                 </svg>
               </a>
             </li>
             <li class="clients-group-items">
               <a class="clients-group-link link" href="">
                 <svg class="clients-group-icons">
-                  <use
-                    href="./img/sprite.svg#logofive"
-                    width="106px"
-                    height="60px"
-                  ></use>
+                  <use href="./img/sprite.svg#logofive" width="106px" height="60px"></use>
                 </svg>
               </a>
             </li>
@@ -442,9 +354,7 @@
         <div class="container footer-container">
           <ul class="footer-page-list list">
             <li class="footer-page-item-left item">
-              <a class="logo link" href=""
-                >Web <span class="footer-logo">Studio</span></a
-              >
+              <a class="logo link" href="">Web <span class="footer-logo">Studio</span></a>
               <address class="address-footer-section">
                 <a
                   class="address-link-footer footer-link link"
@@ -453,16 +363,12 @@
                 </a>
               </address>
 
-              <a
-                class="mail-link-footer footer-link link"
-                href="mailto:info@example.com"
+              <a class="mail-link-footer footer-link link" href="mailto:info@example.com"
                 >info@example.com</a
               >
               <br />
               <div class="link-phone">
-                <a
-                  class="link-number-phone-footer footer-link link"
-                  href="tel:+380991111111"
+                <a class="link-number-phone-footer footer-link link" href="tel:+380991111111"
                   >+38 099 111 11 11</a
                 >
               </div>
@@ -474,44 +380,28 @@
                 <li class="footer-contacts-item item">
                   <a class="footer-contacts-link link" href="">
                     <svg class="footer-icons">
-                      <use
-                        href="./img/sprite.svg#instagram"
-                        width="20px"
-                        height="20px"
-                      ></use>
+                      <use href="./img/sprite.svg#instagram" width="20px" height="20px"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="footer-contacts-item item">
                   <a class="footer-contacts-link link" href="">
                     <svg class="footer-icons">
-                      <use
-                        href="./img/sprite.svg#twitter"
-                        width="20px"
-                        height="20px"
-                      ></use>
+                      <use href="./img/sprite.svg#twitter" width="20px" height="20px"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="footer-contacts-item item">
                   <a class="footer-contacts-link link" href="">
                     <svg class="footer-icons">
-                      <use
-                        href="./img/sprite.svg#facebook"
-                        width="20px"
-                        height="20px"
-                      ></use>
+                      <use href="./img/sprite.svg#facebook" width="20px" height="20px"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="footer-contacts-item item">
                   <a class="footer-contacts-link link" href="">
                     <svg class="footer-icons">
-                      <use
-                        href="./img/sprite.svg#linkedin"
-                        width="20px"
-                        height="20px"
-                      ></use>
+                      <use href="./img/sprite.svg#linkedin" width="20px" height="20px"></use>
                     </svg>
                   </a>
                 </li>
@@ -559,19 +449,12 @@
         </button>
 
         <form class="contact-form">
-          <b class="modal-form-title"
-            >Оставьте свои данные, мы вам перезвоним</b
-          >
+          <b class="modal-form-title">Оставьте свои данные, мы вам перезвоним</b>
 
           <label class="contact-form-field label-name"
             ><span class="contact-form-text">Имя</span>
             <span class="contact-form-input-wrapper">
-              <input
-                type="text"
-                name="user_name"
-                class="contact-form-input"
-                required
-              />
+              <input type="text" name="user_name" class="contact-form-input" required />
               <svg class="image-wrapper wrapper-name">
                 <use href="./img/sprite.svg#name_wrapper"></use>
               </svg>
@@ -581,12 +464,7 @@
           <label class="contact-form-field"
             ><span class="contact-form-text">Телефон</span>
             <span class="contact-form-input-wrapper">
-              <input
-                type="tel"
-                name="user_phone"
-                class="contact-form-input"
-                required
-              />
+              <input type="tel" name="user_phone" class="contact-form-input" required />
               <svg class="image-wrapper wrapper-phone">
                 <use href="./img/sprite.svg#phone_wrapper"></use>
               </svg>
@@ -596,12 +474,7 @@
           <label class="contact-form-field"
             ><span class="contact-form-text">Почта</span>
             <span class="contact-form-input-wrapper">
-              <input
-                type="email"
-                name="user_email"
-                class="contact-form-input"
-                required
-              />
+              <input type="email" name="user_email" class="contact-form-input" required />
               <svg class="image-wrapper wrapper-email">
                 <use href="./img/sprite.svg#email_wrapper"></use>
               </svg>
@@ -627,15 +500,11 @@
               required
             />
             <label for="policy-checkbox" class="contact-form-checkbox-label"
-              ><span class="contact-form-text-link"
-                >Соглашаюсь с рассылкой и принимаю</span
-              >
+              ><span class="contact-form-text-link">Соглашаюсь с рассылкой и принимаю</span>
               <a href="" class="form-link">Условия договора</a></label
             >
           </div>
-          <button type="submit" class="modal-btn">
-            Отправить
-          </button>
+          <button type="submit" class="modal-btn">Отправить</button>
         </form>
       </div>
     </div>

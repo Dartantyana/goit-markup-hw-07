@@ -6,14 +6,14 @@
   border-bottom: 1px solid #ececec;
 }
 
-.header-container,
-.navigation,
+.header__container,
+.header__navigation,
 .navigation-list {
   display: flex;
   align-items: center;
 }
 
-.header-list {
+.header__list {
   display: flex;
   color: var(--secondary-text-color-theme-light);
   font-weight: 500;
@@ -28,16 +28,16 @@
   }
 }
 
-.contact-icon {
+.header-contact__icon {
   fill: rgba(117, 117, 117, 1);
   margin-right: 10px;
-  .header-list:hover &,
-  .header-list:focus & {
+  .header__list:hover &,
+  .header__list:focus & {
     fill: var(--accent-color);
   }
 }
 
-.header-logo {
+.header__logo {
   color: var(--logo-color);
   margin-right: 93px;
 }

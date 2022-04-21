@@ -1,4 +1,4 @@
-.nav-list.link.current::after {
+.navigation-list__link.link.current::after {
   position: absolute;
   content: '';
   width: 100%;
@@ -11,14 +11,14 @@
   border-radius: 2px;
 }
 
-.nav-list-item {
+.navigation-list__item {
   position: relative;
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.nav-list {
+.navigation-list__link {
   color: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -61,6 +61,6 @@
   margin-right: 50px;
 }
 
-.nav-list.link.current {
+.navigation-list__link.link.current {
   color: var(--accent-color);
 }
