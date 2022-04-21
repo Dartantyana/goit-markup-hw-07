@@ -79,6 +79,62 @@ body {
   letter-spacing: 0.03em;
 }
 
+.header-page {
+  color: var(--primary-text-color-theme-light);
+  background-color: var(--primary-text-color-theme-dark);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container,
+.navigation,
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-list:hover .contact-icon,
+.header-list:focus .contact-icon {
+  fill: var(--accent-color);
+}
+
+.header-list {
+  display: flex;
+  color: var(--secondary-text-color-theme-light);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-icon {
+  fill: #757575;
+  margin-right: 10px;
+}
+
+.header-logo {
+  color: var(--logo-color);
+  margin-right: 93px;
+}
+
+.mail-link-footer:hover,
+.mail-link-footer:focus {
+  color: var(--accent-color);
+}
+
+.header-list:hover,
+.header-list:focus {
+  color: var(--accent-color);
+}
+
+.link-number-phone-footer:hover,
+.link-number-phone-footer:focus {
+  color: var(--accent-color);
+}
+
 .modal-btn {
   display: block;
   margin: 0 auto;
@@ -95,6 +151,4 @@ body {
   min-width: 200px;
   padding: 10px 32px;
 }
-
-@im;
 /*# sourceMappingURL=main.css.map */
