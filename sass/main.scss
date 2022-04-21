@@ -5,6 +5,11 @@
 @import './base/container';
 @import './base/logo';
 @import './base/header';
+@import './base/navigation';
+@import './base/overlay';
+
+@import './portfolio/nav';
+@import './portfolio/onlay';
+@import './portfolio/overlay';
 
 @import './components/modal-btn';
-@import './base/'
